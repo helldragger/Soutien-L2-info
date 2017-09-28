@@ -1,0 +1,24 @@
+#Supports de soutien!
+
+Ici vous avez accès a diverses ressources pour rattrapper votre retard voire prendre de l'avance, des pdf d'exos, des
+ pdf de "cours", des morceaux de code exemple, etc...
+
+## Comment ajouter du matos?
+
+-   Preparez vos fichiers dans la bonne hierarchie (pdf dans le dossier pdf, etc..)
+-   Faites votre commit avec une description de ce que vous rajoutez
+-   Faites une push request et tadaa!!
+
+## Comment avoir une copie des supports de cours en permanence et à jour?
+
+### Comment copier les fichiers d'un coup?
+
+-   Clonez le repo sur votre PC pour copier les fichiers
+
+### Comment les mettre a jour?
+
+-   Faites un git pull pour mettre a jour votre repo local
+
+## Comment utiliser git?
+
+RTFM ( Read The fucking Manual ) ici:  https://git-scm.com/book/fr/v2
