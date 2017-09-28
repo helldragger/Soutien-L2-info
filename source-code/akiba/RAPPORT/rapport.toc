@@ -1,0 +1,198 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {paragraph}{\nonumberline Quel est ce projet?}{5}
+\contentsline {paragraph}{\nonumberline Pourquoi l'avoir choisi?}{5}
+\contentsline {paragraph}{\nonumberline Quelles sont les ajouts attendus?}{5}
+\contentsline {paragraph}{\nonumberline Comment s'y retrouver?}{5}
+\contentsline {paragraph}{\nonumberline D'autres informations:}{5}
+\contentsline {part}{\numberline {I}Fonctionnalit\IeC {\'e}s de base}{6}
+\contentsline {chapter}{\numberline {2}Gestion de la partie - Structure des donn\IeC {\'e}es du jeu}{7}
+\contentsline {section}{\numberline {2.1}N\IeC {\'e}cessit\IeC {\'e}s}{7}
+\contentsline {paragraph}{\nonumberline Gestion de parties en temps qu'instances d'objets}{7}
+\contentsline {section}{\numberline {2.2}Probl\IeC {\`e}me}{7}
+\contentsline {paragraph}{\nonumberline Repr\IeC {\'e}senter les boules du plateau}{7}
+\contentsline {paragraph}{\nonumberline Repr\IeC {\'e}senter les informations des joueurs et de la partie}{7}
+\contentsline {section}{\numberline {2.3}Approches possibles}{8}
+\contentsline {subsection}{\numberline {2.3.1}Repr\IeC {\'e}senter les boules du plateau}{8}
+\contentsline {paragraph}{\nonumberline Point de vue de la grille: tableau \IeC {\`a} 2 dimensions}{8}
+\contentsline {paragraph}{\nonumberline Point de vue du dictionnaire: indexation balle-propri\IeC {\'e}taire}{8}
+\contentsline {paragraph}{\nonumberline Point de vue du dictionnaire: indexation propri\IeC {\'e}taire-balle}{8}
+\contentsline {subsection}{\numberline {2.3.2}Repr\IeC {\'e}senter les informations des joueurs et de la partie}{8}
+\contentsline {paragraph}{\nonumberline Gestion par variables sp\IeC {\'e}cifiques}{8}
+\contentsline {paragraph}{\nonumberline Indexation des informations dans un dictionnaire}{9}
+\contentsline {section}{\numberline {2.4}Approche utilis\IeC {\'e}e}{9}
+\contentsline {subsection}{\numberline {2.4.1}Repr\IeC {\'e}senter les boules du plateau}{9}
+\contentsline {paragraph}{\nonumberline Dictionnaire avec indexation propri\IeC {\'e}taire-balle}{9}
+\contentsline {subsection}{\numberline {2.4.2}Repr\IeC {\'e}senter les informations des joueurs et de la partie}{9}
+\contentsline {paragraph}{\nonumberline Indexation des informations li\IeC {\'e}es}{9}
+\contentsline {paragraph}{\nonumberline Variables s\IeC {\'e}par\IeC {\'e}es pour donn\IeC {\'e}es uniques}{9}
+\contentsline {section}{\numberline {2.5}Remarques sur les r\IeC {\'e}sultats obtenus}{9}
+\contentsline {paragraph}{\nonumberline Code clair et compr\IeC {\'e}hensible}{9}
+\contentsline {paragraph}{\nonumberline Rapidit\IeC {\'e} d'ex\IeC {\'e}cution satisfaisante}{9}
+\contentsline {section}{\numberline {2.6}Pistes d'am\IeC {\'e}lioration}{10}
+\contentsline {paragraph}{\nonumberline Aucune am\IeC {\'e}lioration trouv\IeC {\'e}e}{10}
+\contentsline {chapter}{\numberline {3}Gestion de la partie - R\IeC {\`e}gles et d\IeC {\'e}roulement du jeu}{11}
+\contentsline {section}{\numberline {3.1}Probl\IeC {\`e}me}{11}
+\contentsline {paragraph}{\nonumberline G\IeC {\'e}rer le d\IeC {\'e}roulement de la partie}{11}
+\contentsline {paragraph}{\nonumberline G\IeC {\'e}rer les r\IeC {\`e}gles du jeu}{11}
+\contentsline {section}{\numberline {3.2}Approches possibles}{11}
+\contentsline {paragraph}{\nonumberline Gestion de la partie dans une boucle externe \IeC {\`a} la partie}{11}
+\contentsline {paragraph}{\nonumberline Gestion de la partie dans une boucle interne \IeC {\`a} la partie}{11}
+\contentsline {paragraph}{\nonumberline Gestion des r\IeC {\`e}gles dans la boucle de jeu elle m\IeC {\^e}me}{12}
+\contentsline {paragraph}{\nonumberline Gestion des r\IeC {\`e}gles externalis\IeC {\'e}e de la boucle de jeu elle m\IeC {\^e}me}{12}
+\contentsline {section}{\numberline {3.3}Approche utilis\IeC {\'e}e}{12}
+\contentsline {paragraph}{\nonumberline Gestion de la partie dans une boucle interne \IeC {\`a} la partie}{12}
+\contentsline {paragraph}{\nonumberline Gestion des r\IeC {\`e}gles ind\IeC {\'e}pendante}{12}
+\contentsline {section}{\numberline {3.4}Pistes d'am\IeC {\'e}lioration}{12}
+\contentsline {paragraph}{\nonumberline Optimiser l'approche orient\IeC {\'e} objet}{12}
+\contentsline {paragraph}{\nonumberline Optimisation du code de gestion des r\IeC {\`e}gles (acc\IeC {\`e}s, d\IeC {\'e}termination de l'\IeC {\'e}tat de ces r\IeC {\`e}gles)}{12}
+\contentsline {chapter}{\numberline {4}Mode console}{13}
+\contentsline {section}{\numberline {4.1}N\IeC {\'e}cessit\IeC {\'e}s}{13}
+\contentsline {paragraph}{\nonumberline Permettre au joueur de voir l'\IeC {\'e}tat de la partie en cours}{13}
+\contentsline {paragraph}{\nonumberline Permettre au joueur de savoir comment interagir}{13}
+\contentsline {paragraph}{\nonumberline Informer le joueur sur les choix possibles ou non}{13}
+\contentsline {section}{\numberline {4.2}Probl\IeC {\`e}me}{13}
+\contentsline {paragraph}{\nonumberline Communiquer des choix entre l'utilisateur et le jeu}{13}
+\contentsline {section}{\numberline {4.3}Approches possibles}{13}
+\contentsline {paragraph}{\nonumberline Syst\IeC {\`e}me de commandes}{13}
+\contentsline {paragraph}{\nonumberline Syst\IeC {\`e}me proc\IeC {\'e}dural}{14}
+\contentsline {section}{\numberline {4.4}Approche utilis\IeC {\'e}e}{14}
+\contentsline {paragraph}{\nonumberline Intervention proc\IeC {\'e}durale de l'utilisateur}{14}
+\contentsline {section}{\numberline {4.5}Remarques sur les r\IeC {\'e}sultats obtenus}{14}
+\contentsline {paragraph}{\nonumberline Rappel des r\IeC {\`e}gles souhaitable}{14}
+\contentsline {paragraph}{\nonumberline Manque d'informations cruciales}{14}
+\contentsline {section}{\numberline {4.6}Pistes d'am\IeC {\'e}lioration}{14}
+\contentsline {paragraph}{\nonumberline Meilleur affichage du plateau et des informations}{14}
+\contentsline {paragraph}{\nonumberline Reconnaissance d'une commande sp\IeC {\'e}cifique d\IeC {\'e}di\IeC {\'e}e \IeC {\`a} l'affichage des r\IeC {\`e}gles}{15}
+\contentsline {part}{\numberline {II}Interface graphique}{16}
+\contentsline {chapter}{\numberline {5}Mode graphique}{17}
+\contentsline {section}{\numberline {5.1}N\IeC {\'e}cessit\IeC {\'e}s}{17}
+\contentsline {paragraph}{\nonumberline Am\IeC {\'e}liorer la pr\IeC {\'e}sentation des informations sur la partie}{17}
+\contentsline {paragraph}{\nonumberline Faciliter l'acc\IeC {\`e}s aux r\IeC {\`e}gles aux joueurs n\IeC {\'e}ophytes}{17}
+\contentsline {section}{\numberline {5.2}Probl\IeC {\`e}me}{17}
+\contentsline {paragraph}{\nonumberline Simplifier les interactions de l'utilisateur}{17}
+\contentsline {section}{\numberline {5.3}Approches possibles}{17}
+\contentsline {paragraph}{\nonumberline Syst\IeC {\`e}me de commandes par s\IeC {\'e}lection manuelle de boule puis de direction}{17}
+\contentsline {paragraph}{\nonumberline Syst\IeC {\`e}me de s\IeC {\'e}lection de mouvements possible}{18}
+\contentsline {section}{\numberline {5.4}Approche utilis\IeC {\'e}e}{18}
+\contentsline {paragraph}{\nonumberline Choix du mouvement par unique clic}{18}
+\contentsline {section}{\numberline {5.5}Remarques sur les r\IeC {\'e}sultats obtenus}{18}
+\contentsline {paragraph}{\nonumberline Interface trop petite}{18}
+\contentsline {section}{\numberline {5.6}Pistes d'am\IeC {\'e}lioration}{18}
+\contentsline {paragraph}{\nonumberline Retrait des textures superflues et am\IeC {\'e}lioration de l'affichage de l'information}{18}
+\contentsline {paragraph}{\nonumberline Rendre le plateau de jeu de taille r\IeC {\'e}glable}{19}
+\contentsline {paragraph}{\nonumberline Am\IeC {\'e}liorer l'intuitivit\IeC {\'e} de l'interaction avec un tutoriel ou un curseur en forme de doigt}{19}
+\contentsline {paragraph}{\nonumberline Un guide du meilleur coup?}{19}
+\contentsline {paragraph}{\nonumberline Meilleur formatage de l'affichage des r\IeC {\`e}gles}{19}
+\contentsline {part}{\numberline {III}Intelligence artificielle - Algorithme g\IeC {\'e}n\IeC {\'e}tique}{20}
+\contentsline {chapter}{\numberline {6}Type d'intelligence artificielle}{21}
+\contentsline {section}{\numberline {6.1}Restrictions}{21}
+\contentsline {paragraph}{\nonumberline Aucune information de strat\IeC {\'e}gies sur ce jeu}{21}
+\contentsline {paragraph}{\nonumberline Pas de donn\IeC {\'e}es d'entrainement disponibles}{21}
+\contentsline {section}{\numberline {6.2}N\IeC {\'e}cessit\IeC {\'e}s}{21}
+\contentsline {paragraph}{\nonumberline Plusieurs niveaux de difficult\IeC {\'e}s}{21}
+\contentsline {section}{\numberline {6.3}Probl\IeC {\`e}me}{21}
+\contentsline {paragraph}{\nonumberline Besoin de choix logiques automatis\IeC {\'e}s pour jouer contre un joueur}{21}
+\contentsline {section}{\numberline {6.4}Approches possibles}{22}
+\contentsline {paragraph}{\nonumberline R\IeC {\'e}seau neuronal artificiel de deep learning}{22}
+\contentsline {paragraph}{\nonumberline R\IeC {\'e}seau neuronal artificiel \IeC {\`a} apprentissage par renforcement positif}{22}
+\contentsline {paragraph}{\nonumberline Algorithme g\IeC {\'e}n\IeC {\'e}tique}{22}
+\contentsline {section}{\numberline {6.5}Approche utilis\IeC {\'e}e}{22}
+\contentsline {paragraph}{\nonumberline Algorithme g\IeC {\'e}n\IeC {\'e}tique}{22}
+\contentsline {chapter}{\numberline {7}\IeC {\'E}volution ind\IeC {\'e}pendante}{23}
+\contentsline {section}{\numberline {7.1}N\IeC {\'e}cessit\IeC {\'e}s}{23}
+\contentsline {paragraph}{\nonumberline Aucune supervision humaine sur l'efficacit\IeC {\'e} d'un g\IeC {\'e}nome}{23}
+\contentsline {paragraph}{\nonumberline Mutations al\IeC {\'e}atoires pour sortir d'extremum locaux parfois non optimaux}{23}
+\contentsline {section}{\numberline {7.2}Probl\IeC {\`e}me}{23}
+\contentsline {paragraph}{\nonumberline Besoin de convergence vers une meilleure solution}{23}
+\contentsline {section}{\numberline {7.3}Approches possibles}{23}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection al\IeC {\'e}atoire}{23}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection \IeC {\'e}litiste}{24}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection par reproduction g\IeC {\'e}n\IeC {\'e}rale}{24}
+\contentsline {section}{\numberline {7.4}Approche utilis\IeC {\'e}e}{24}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection \IeC {\'e}litiste sur l'efficacit\IeC {\'e} en temps et en score}{24}
+\contentsline {paragraph}{\nonumberline Mutations \IeC {\`a} fr\IeC {\'e}quence constante}{24}
+\contentsline {section}{\numberline {7.5}Remarques sur les r\IeC {\'e}sultats obtenus}{24}
+\contentsline {paragraph}{\nonumberline Adaptation des IA g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}es rapide et positive}{24}
+\contentsline {paragraph}{\nonumberline Convergence un peu trop rapide}{25}
+\contentsline {section}{\numberline {7.6}Pistes d'am\IeC {\'e}lioration}{25}
+\contentsline {paragraph}{\nonumberline Fr\IeC {\'e}quence de mutation dynamique}{25}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection moins stricte}{25}
+\contentsline {chapter}{\numberline {8}Heuristique - Prise de d\IeC {\'e}cision}{26}
+\contentsline {section}{\numberline {8.1}Probl\IeC {\`e}me}{26}
+\contentsline {paragraph}{\nonumberline Faire agir le g\IeC {\'e}nome d'une IA sur son comportement}{26}
+\contentsline {section}{\numberline {8.2}Approches possibles}{26}
+\contentsline {paragraph}{\nonumberline Laisser l'IA favoriser divers comportements g\IeC {\'e}n\IeC {\'e}raux}{26}
+\contentsline {paragraph}{\nonumberline Laisser l'IA d\IeC {\'e}cider de l'importance de divers facteurs d'une situation}{26}
+\contentsline {section}{\numberline {8.3}Approche utilis\IeC {\'e}e}{27}
+\contentsline {paragraph}{\nonumberline Importance d'une situation par pond\IeC {\'e}ration lin\IeC {\'e}aire}{27}
+\contentsline {paragraph}{\nonumberline G\IeC {\'e}nome de multiplicateurs}{27}
+\contentsline {section}{\numberline {8.4}Remarques sur les r\IeC {\'e}sultats obtenus}{27}
+\contentsline {paragraph}{\nonumberline Certains facteurs sont ignor\IeC {\'e}s au profit d'autres}{27}
+\contentsline {section}{\numberline {8.5}Pistes d'am\IeC {\'e}lioration}{27}
+\contentsline {paragraph}{\nonumberline Ajout de facteurs plus pertinents, plus math\IeC {\'e}matiques}{27}
+\contentsline {paragraph}{\nonumberline Augmentation de la taille des g\IeC {\^e}nes pour leur permettre plus de valeurs possibles}{27}
+\contentsline {chapter}{\numberline {9}Heuristique - Optimisation des mouvements choisis}{28}
+\contentsline {section}{\numberline {9.1}N\IeC {\'e}cessit\IeC {\'e}s}{28}
+\contentsline {paragraph}{\nonumberline Une partie dans un arbre de possibilit\IeC {\'e}s}{28}
+\contentsline {section}{\numberline {9.2}Probl\IeC {\`e}me}{28}
+\contentsline {paragraph}{\nonumberline S\IeC {\'e}lection des meilleurs mouvements potentiels}{28}
+\contentsline {section}{\numberline {9.3}Approches possibles}{28}
+\contentsline {paragraph}{\nonumberline Parcours min-max sans \IeC {\'e}lagage}{28}
+\contentsline {paragraph}{\nonumberline Parcours min-max avec \IeC {\'e}lagage alpha-b\IeC {\^e}ta}{28}
+\contentsline {paragraph}{\nonumberline M\IeC {\'e}thode de Monte-Carlo}{29}
+\contentsline {section}{\numberline {9.4}Approche utilis\IeC {\'e}e}{29}
+\contentsline {paragraph}{\nonumberline L'algorithme N\IeC {\'e}gaMax, simplification du Min-max}{29}
+\contentsline {paragraph}{\nonumberline \IeC {\'E}lagage alpha-b\IeC {\^e}ta}{29}
+\contentsline {section}{\numberline {9.5}Remarques sur les r\IeC {\'e}sultats obtenus}{30}
+\contentsline {paragraph}{\nonumberline Performances grandement acc\IeC {\'e}l\IeC {\'e}r\IeC {\'e}es}{30}
+\contentsline {section}{\numberline {9.6}Pistes d'am\IeC {\'e}lioration}{30}
+\contentsline {paragraph}{\nonumberline Utilisation de la m\IeC {\'e}thode de Monte-Carlo}{30}
+\contentsline {paragraph}{\nonumberline Exploration simultan\IeC {\'e}e de plusieurs arbres de possibilit\IeC {\'e}s}{30}
+\contentsline {part}{\numberline {IV}Intelligence artificielle - Entrainement}{31}
+\contentsline {chapter}{\numberline {10}Mode entrainement}{32}
+\contentsline {section}{\numberline {10.1}N\IeC {\'e}cessit\IeC {\'e}s}{32}
+\contentsline {paragraph}{\nonumberline Besoin de pouvoir modifier divers param\IeC {\`e}tres de d\IeC {\'e}part}{32}
+\contentsline {section}{\numberline {10.2}Probl\IeC {\`e}me}{32}
+\contentsline {paragraph}{\nonumberline Besoin d'un entrainement aussi rapide que possible}{32}
+\contentsline {section}{\numberline {10.3}Approche utilis\IeC {\'e}e}{32}
+\contentsline {paragraph}{\nonumberline Mode sans intervention humaine}{32}
+\contentsline {paragraph}{\nonumberline Approche algorithmique la plus lin\IeC {\'e}aire possible}{32}
+\contentsline {paragraph}{\nonumberline Minimum d'informations \IeC {\`a} afficher pour ne pas ralentir son ex\IeC {\'e}cution}{32}
+\contentsline {section}{\numberline {10.4}Pistes d'am\IeC {\'e}lioration}{33}
+\contentsline {paragraph}{\nonumberline Affichage de statistiques sur l'\IeC {\'e}tat de l'entrainement}{33}
+\contentsline {paragraph}{\nonumberline Multi-threader les parties entre bots}{33}
+\contentsline {chapter}{\numberline {11}Sauvegarde des g\IeC {\'e}n\IeC {\'e}rations d'IA}{34}
+\contentsline {section}{\numberline {11.1}N\IeC {\'e}cessit\IeC {\'e}s}{34}
+\contentsline {paragraph}{\nonumberline Besoin de conserver les meilleures IA}{34}
+\contentsline {paragraph}{\nonumberline Besoin de classer les IA}{34}
+\contentsline {section}{\numberline {11.2}Probl\IeC {\`e}me}{34}
+\contentsline {paragraph}{\nonumberline Classement et sauvegarde des IA}{34}
+\contentsline {section}{\numberline {11.3}Approches possibles}{34}
+\contentsline {paragraph}{\nonumberline Base de donn\IeC {\'e}es unique}{34}
+\contentsline {paragraph}{\nonumberline Conserver chaque meilleur \IeC {\'e}l\IeC {\'e}ment de chaque g\IeC {\'e}n\IeC {\'e}ration dans un fichier s\IeC {\'e}par\IeC {\'e}}{34}
+\contentsline {section}{\numberline {11.4}Approche utilis\IeC {\'e}e}{35}
+\contentsline {paragraph}{\nonumberline Fichier ind\IeC {\'e}pendant par g\IeC {\'e}n\IeC {\'e}ration d'IA}{35}
+\contentsline {section}{\numberline {11.5}Remarques sur les r\IeC {\'e}sultats obtenus}{35}
+\contentsline {paragraph}{\nonumberline Classement des fichiers difficile}{35}
+\contentsline {section}{\numberline {11.6}Pistes d'am\IeC {\'e}lioration}{35}
+\contentsline {paragraph}{\nonumberline Base de donn\IeC {\'e}es}{35}
+\contentsline {part}{\numberline {V}Lanceur principal}{36}
+\contentsline {chapter}{\numberline {12}Choix des modes}{37}
+\contentsline {section}{\numberline {12.1}Probl\IeC {\`e}me}{37}
+\contentsline {paragraph}{\nonumberline Choisir quel mode lancer sans changer le code source}{37}
+\contentsline {section}{\numberline {12.2}Approches possibles}{37}
+\contentsline {paragraph}{\nonumberline Multiples lanceurs s\IeC {\'e}par\IeC {\'e}s}{37}
+\contentsline {paragraph}{\nonumberline Lanceur principal}{37}
+\contentsline {section}{\numberline {12.3}Approche utilis\IeC {\'e}e}{37}
+\contentsline {paragraph}{\nonumberline Unique lanceur principal}{37}
+\contentsline {section}{\numberline {12.4}Pistes d'am\IeC {\'e}lioration}{38}
+\contentsline {paragraph}{\nonumberline Design plus intuitif (boutons logos)}{38}
+\contentsline {chapter}{\numberline {13}Configuration des modes}{39}
+\contentsline {section}{\numberline {13.1}Probl\IeC {\`e}me}{39}
+\contentsline {paragraph}{\nonumberline Choisir des param\IeC {\`e}tres diff\IeC {\'e}rents pour diff\IeC {\'e}rents modes}{39}
+\contentsline {section}{\numberline {13.2}Approche utilis\IeC {\'e}e}{39}
+\contentsline {paragraph}{\nonumberline Cr\IeC {\'e}ation de menus de configuration s\IeC {\'e}par\IeC {\'e}s}{39}
+\contentsline {section}{\numberline {13.3}Pistes d'am\IeC {\'e}lioration}{39}
+\contentsline {paragraph}{\nonumberline Design plus intuitif}{39}
+\contentsline {paragraph}{\nonumberline Sauvegarde des derniers param\IeC {\`e}tres}{39}
